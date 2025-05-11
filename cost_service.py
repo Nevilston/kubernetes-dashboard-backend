@@ -3,7 +3,7 @@ import boto3
 import subprocess
 from datetime import datetime, timezone
 from dotenv import load_dotenv
-from kubernetes_service import configure_eks_cluster  # Use the existing function
+from kubernetes_service import configure_eks_cluster  
 
 load_dotenv()  # Load environment variables
 
